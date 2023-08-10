@@ -2,12 +2,14 @@
 
 IDE used:-Jupyter Notebook
 
-Khamgalvets web-scraping 101
+Veterinary Website web-scraping 101
+
+find a good veterinary website for the project copy the https:// link and use in requests.get
 
     %pip install requests
  
     import requests
-#scrape data from Khamgalvets Medicine website
+#scrape data from Khamgalvets website
 
     requests.get('https://mvc.ac.in')
 
