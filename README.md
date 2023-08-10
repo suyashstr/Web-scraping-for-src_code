@@ -1,5 +1,7 @@
 # Web-scraping-for-src_code
 
+IDE used:-Jupyter Notebook
+
 Khamgalvets web-scraping 101
 
     %pip install requests
