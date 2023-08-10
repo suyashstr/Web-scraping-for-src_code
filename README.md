@@ -7,11 +7,11 @@ Khamgalvets web-scraping 101
     import requests
 #scrape data from Khamgalvets Medicine website
 
-    requests.get('http://thisisasite.net/')
+    requests.get('https://mvc.ac.in')
 
 #scrape data from the khamgalvets website and save it to the response variable
 
-    response = requests.get('http://thisisasite.net/')
+    response = requests.get('https://mvc.ac.in')
 
 # Retrieve the status code of the Khamgalvets website
 
@@ -84,8 +84,10 @@ successful response and the 00 tell its ok to scrape
     for link in links:
       print(link.text, link.get('href'))
 
-      Thank you:)
 
 # write HTML code we pulled to a text file
-with open("Khamgal_vets.txt","w") as f:
+
+    with open("Khamgal_vets.txt","w") as f:
     f.write(soup.prettify())
+
+      Thank you:)
