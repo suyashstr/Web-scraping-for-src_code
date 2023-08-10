@@ -4,7 +4,9 @@ IDE used:-Jupyter Notebook
 
 Veterinary Website web-scraping 101
 
-find a good veterinary website for the project copy the https:// link and use in requests.get
+Find a good veterinary clinic website for the project copy the https:// 
+
+link and use in requests.get
 
     %pip install requests
  
