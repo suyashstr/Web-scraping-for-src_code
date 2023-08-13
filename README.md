@@ -40,11 +40,11 @@ successful response and the 00 tell its ok to scrape
  
     response1.headers
 
-#Retrieve the content of the Wisdom Pet Medicine website
+#Retrieve the content of the Khamgalvets website
 
     response1.content
 
-#Retrieve the text of the Wisdom Pet Medicine website
+#Retrieve the text of the Khamgalvets website
 
     response.text
 
@@ -84,7 +84,7 @@ successful response and the 00 tell its ok to scrape
     for s in staff:
      print(s.text)
 
-#find all links on the Wisdom Pet Medicine website
+#find all links on the Khamgalvets website
     
     links = soup.find_all("a")
     for link in links:
